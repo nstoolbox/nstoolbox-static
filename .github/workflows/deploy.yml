@@ -1,11 +1,7 @@
 name: Github Pages deployment
 
 on:
-  push:
-    branches: [ "deployment" ]
-
   workflow_dispatch:
-
   schedule:
     - cron: "54 15 * * *"
 
